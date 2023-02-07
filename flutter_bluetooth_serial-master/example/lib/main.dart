@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-
 import './MainPage.dart';
+import './Login.dart';
+import './Menu.dart';
 
 void main() => runApp(new ExampleApplication());
 
@@ -11,7 +12,7 @@ class ExampleApplication extends StatelessWidget {
       //home: MainPage(),
       routes: {
         "/": (context) => MainPage(),
-        "login": (context) => Login(),
+        "Login": (context) => Login(),
       },
     );
   }
