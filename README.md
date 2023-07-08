@@ -6,9 +6,6 @@ Projeto IOT desenvolvido através do programa de Férias Fit|Flex-Sorocaba/SP.
   Feed.me foi idealizado baseado no segmento da saúde com objetivo de oferecer propostas baseando-se em uma alimentação saudável a fim de se obter a promoção da saúde.
   
    A aplicação consiste em uma pesquisa para coletar dados se baseando no gasto energético diário do indivíduo, para realizar essa tarefa foi desenvolvido um firmware no microcontrolador ESP 32 conectado ao sensor Heart Beat Rate para medir os batimentos cardiacos, simulando um smartwatch.
-  Os dados da informação nutricional dos alimentos são coletados através da API spoonacular ( mais informações disponível em https://spoonacular.com/food-api), armazenado no Firebase em cloud, e então exibido no aplicativo Feed.me. Em conjunto com as informações coletadas do usuário, foi desenvolvido um algorítimo baseado na literatura para cálculo do gasto energético basal, onde é fornecida a informação sobre o quanto o indivíduo gasta de energia em Kcal quando está em estado de repouso, para que ofereça um norteamento da montagem de um cardápio que supra suas necessidades.
-  Os dados da frequencia cardíaca são inseridos em um cálculo para indicar a faixa de queima de gordura em que um indivíduo pode alcançar de acordo com a atividade realizada no momento.
-
 Para definir como marcar um batimento cardíaco foi determinado um Threshold de 2000 no sinal analógico do Heart Sensor, um valor lido pelo ADC (Analog to Digital Converter) do ESP32.
 
 <div align="center">
